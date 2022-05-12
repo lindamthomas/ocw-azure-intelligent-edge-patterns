@@ -20,12 +20,6 @@
         },
         "systemModules": {},
         "modules": {
-          "nginxmodule": {
-            "type": "docker",
-            "settings": {
-              "image": "${MODULES.NginxModule.amd64}"
-            }
-          },
           "webmodule": {
             "type": "docker",
             "settings": {
