@@ -20,46 +20,52 @@
         },
         "systemModules": {},
         "modules": {
+          "nginxmodule": {
+            "type": "docker",
+            "settings": {
+              "image": "lindamthomas/intelligentedge/NginxModule"
+            }
+          },
           "webmodule": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.WebModule.amd64}"
+              "image": "lindamthomas/intelligentedge/WebModule"
             }
           },
           "inferencemodule": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.InferenceModule.amd64}"
+              "image": "lindamthomas/intelligentedge/InferenceModule"
             }
           },
           "PredictModuleCPU": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.PredictModule.cpuamd64}"
+              "image": "lindamthomas/intelligentedge/PredictModule"
             }
           },
           "PredictModuleGPU": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.PredictModule.gpuamd64}"
+              "image": "lindamthomas/intelligentedge/PredictModule"
             }
           },
           "PredictModuleVPU": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.PredictModule.vpuamd64}"
+              "image": "lindamthomas/intelligentedge/PredictModule"
             }
           },
           "rtspsim": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.RtspSimModule.amd64}"
+              "image": "lindamthomas/intelligentedge/RtspSimModule"
             }
           },
           "uploadmodule": {
             "type": "docker",
             "settings": {
-              "image": "${MODULES.UploadModule.amd64}"
+              "image": "lindamthomas/intelligentedge/UploadModule"
             }
           }
         }
