@@ -26,4 +26,4 @@ steps:
       dockerRegistryConnection: 'intelligentedge'
       templateFilePath: './factory-ai-vision/EdgeSolution/deployment.build.amd.template.json'
       defaultPlatform: 'amd64'
-      fillRegistryCredential: 'false'
+      fillRegistryCredential: 'true'
