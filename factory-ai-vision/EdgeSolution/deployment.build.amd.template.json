@@ -23,49 +23,57 @@
           "nginxmodule": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/NginxModule"
+              "image": "lindamthomas/intelligentedge/NginxModule",
+              "createOptions": "{}"
             }
           },
           "webmodule": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/WebModule"
+              "image": "lindamthomas/intelligentedge/WebModule",
+              "createOptions": "{}"
             }
           },
           "inferencemodule": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/InferenceModule"
+              "image": "lindamthomas/intelligentedge/InferenceModule",
+              "createOptions": "{}"
             }
           },
           "PredictModuleCPU": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/PredictModule"
+              "image": "lindamthomas/intelligentedge/PredictModule",
+              "createOptions": "{}"
             }
           },
           "PredictModuleGPU": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/PredictModule"
+              "image": "lindamthomas/intelligentedge/PredictModule",
+              "createOptions": "{}"
             }
           },
           "PredictModuleVPU": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/PredictModule"
+              "image": "lindamthomas/intelligentedge/PredictModule",
+              "createOptions": "{}"
             }
           },
           "rtspsim": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/RtspSimModule"
+              "image": "lindamthomas/intelligentedge/RtspSimModule",
+              "createOptions": "{}"
             }
           },
           "uploadmodule": {
             "type": "docker",
             "settings": {
-              "image": "lindamthomas/intelligentedge/UploadModule"
+              "image": "lindamthomas/intelligentedge/UploadModule",
+              "createOptions": "{}"
             }
           }
         }
